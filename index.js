@@ -4,6 +4,7 @@ const mongoose = require("mongoose")
 const schema = require("./model/model")
 const app = express()
 
+
 app.use(express.json())
 app.use(cors())
 
